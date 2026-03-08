@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areeba Sajjad — IT Graduate · Web Developer · Digital Marketer</title>
+    <meta name="description"
+        content="Portfolio of Areeba Sajjad — BBIT student, WordPress Developer, SEO Specialist, and Digital Marketer based in Lahore, Pakistan.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Three.js Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <a href="#hero" class="nav-logo">
+            <img src="assets/logo1-removebg-preview.png" alt="Areeba Sajjad Logo" class="logo-img">
+        </a>
+        <div class="nav-links" id="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#articles" class="nav-link">Articles</a>
+            <a href="assets/areeba_cv.pdf" class="nav-link nav-link-cta" download>Download CV</a>
+        </div>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Welcome to my portfolio</div>
+            <div class="hero-profile-img">
+                <div class="profile-ring"></div>
+                <img src="assets/profile_new.jpg" alt="Areeba Sajjad" class="profile-photo">
+            </div>
+            <h1 class="hero-title">
+                Hi, I'm<br>
+                <span class="hero-name glitch" data-text="Areeba Sajjad">Areeba Sajjad</span>
+            </h1>
+            <div class="hero-subtitle">
+                <span class="typewriter" id="typewriter"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-desc">I help businesses build a premium online presence with clean, fast, and SEO-friendly
+                websites. Specializing in WordPress and modern frontend technologies, I bridge the gap between business
+                strategy and technical execution.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <span class="btn-icon">⚡</span>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <span>Get In Touch</span>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// about.me</span>
+                <h2 class="section-title">About <span class="accent">Me</span></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <p>I am a <strong>Frontend & WordPress Developer</strong> with a background in Business and
+                        Information Technology. I don't just build websites; I create digital solutions that solve
+                        business problems and drive growth.</p>
+                    <p>Whether you need a high-converting landing page, a robust e-commerce platform, or a data-driven
+                        SEO strategy, I work closely with you to ensure your digital presence is both beautiful and
+                        functional.</p>
+                    <p>With experience across multiple industries, I help startups and established businesses stand out
+                        in a crowded digital landscape through <strong>User-Centric Design</strong>, <strong>Performance
+                            Optimization</strong>, and <strong>Strategic Content</strong>.</p>
+                </div>
+                <div class="stats-grid reveal">
+                    <div class="stat-card glass-card">
+                        <span class="stat-number" data-count="3.50" data-decimal="true">0</span>
+                        <span class="stat-label">CGPA</span>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <span class="stat-number" data-count="3">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Jobs / Internships</span>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <span class="stat-number" data-count="10">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <span class="stat-number" data-count="8">0</span>
+                        <span class="stat-suffix">th</span>
+                        <span class="stat-label">Semester</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// education.history</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card tilt-card">
+                        <div class="timeline-icon">🎓</div>
+                        <h3>Bachelor's in Business &amp; IT</h3>
+                        <p class="timeline-place">Institute of Business &amp; Information Technology
+                            (IBIT)<br>University of Punjab, Lahore</p>
+                        <p class="timeline-date">Jan 2022 – June 2026</p>
+                        <p class="timeline-detail">IT Specialization · 8th Semester · CGPA: 3.50</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card tilt-card">
+                        <div class="timeline-icon">📚</div>
+                        <h3>Intermediate — FSc ICS (Physics)</h3>
+                        <p class="timeline-place">Kinnaird College for Women, Lahore</p>
+                        <p class="timeline-date">2020 – 2022</p>
+                        <p class="timeline-detail">Marks: 911 · Grade: A+ · ICS Physics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// work.experience</span>
+                <h2 class="section-title">Work <span class="accent">Experience</span></h2>
+            </div>
+            <div class="exp-branch-timeline">
+
+                <div class="exp-branch-item exp-branch-left reveal">
+                    <div class="exp-branch-connector"></div>
+                    <div class="exp-branch-node"><span class="exp-branch-node-ring"></span></div>
+                    <div class="exp-branch-card glass-card tilt-card">
+                        <div class="exp-branch-date-badge">Feb 2026 – Present</div>
+                        <div class="exp-branch-icon">🚀</div>
+                        <h3>Web-base App Developer</h3>
+                        <span class="exp-branch-company">HZ Software Solutions</span>
+                        <p class="exp-branch-desc">Leading the development of secure and scalable web-based
+                            applications. Focusing on modern frontend technologies, robust backend integration, and
+                            seamless user experiences for enterprise solutions.</p>
+                        <div class="exp-tags">
+                            <span class="tag">Web App Dev</span>
+                            <span class="tag">Full Stack</span>
+                            <span class="tag">Scalable Solutions</span>
+                            <span class="tag">Architecture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-branch-item exp-branch-right reveal">
+                    <div class="exp-branch-connector"></div>
+                    <div class="exp-branch-node"><span class="exp-branch-node-ring"></span></div>
+                    <div class="exp-branch-card glass-card tilt-card">
+                        <div class="exp-branch-date-badge">Feb 2026 – Present</div>
+                        <div class="exp-branch-icon">💼</div>
+                        <h3>WordPress Web Developer</h3>
+                        <span class="exp-branch-company">Appverse Technologies</span>
+                        <p class="exp-branch-desc">Building and developing WordPress websites with custom themes and
+                            functionality. Working on client projects to deliver responsive, user-friendly, and
+                            SEO-optimized web solutions.</p>
+                        <div class="exp-tags">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">Custom Themes</span>
+                            <span class="tag">SEO</span>
+                            <span class="tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-branch-item exp-branch-left reveal">
+                    <div class="exp-branch-connector"></div>
+                    <div class="exp-branch-node"><span class="exp-branch-node-ring"></span></div>
+                    <div class="exp-branch-card glass-card tilt-card">
+                        <div class="exp-branch-date-badge">Feb 2026 – Present</div>
+                        <div class="exp-branch-icon">🖥️</div>
+                        <h3>Web Developer</h3>
+                        <span class="exp-branch-company">Arch Technologies</span>
+                        <p class="exp-branch-desc">Developing modern web applications and websites. Working with the
+                            development team to create efficient, scalable, and visually appealing digital solutions for
+                            clients.</p>
+                        <div class="exp-tags">
+                            <span class="tag">Web Development</span>
+                            <span class="tag">Scalable Apps</span>
+                            <span class="tag">Team Collaboration</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-branch-item exp-branch-right reveal">
+                    <div class="exp-branch-connector"></div>
+                    <div class="exp-branch-node"><span class="exp-branch-node-ring"></span></div>
+                    <div class="exp-branch-card glass-card tilt-card">
+                        <div class="exp-branch-date-badge">Jan 2025 – Jan 2026</div>
+                        <div class="exp-branch-icon">🔗</div>
+                        <h3>SEO Backlinking Specialist &amp; Web Designer</h3>
+                        <span class="exp-branch-company">WebAce Solution</span>
+                        <p class="exp-branch-desc">Built high-quality backlinks to improve search engine rankings and
+                            domain authority. Designed visually appealing, SEO-optimized websites for multiple clients.
+                        </p>
+                        <div class="exp-tags">
+                            <span class="tag">SEO</span>
+                            <span class="tag">Link Building</span>
+                            <span class="tag">Web Design</span>
+                            <span class="tag">Outreach</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-branch-item exp-branch-left reveal">
+                    <div class="exp-branch-connector"></div>
+                    <div class="exp-branch-node"><span class="exp-branch-node-ring"></span></div>
+                    <div class="exp-branch-card glass-card tilt-card">
+                        <div class="exp-branch-date-badge">June 2025 – Present</div>
+                        <div class="exp-branch-icon">📱</div>
+                        <h3>Social Media Marketing Specialist &amp; Content Creator</h3>
+                        <span class="exp-branch-company">Web Marketing Solutions</span>
+                        <p class="exp-branch-desc">Managing and growing brand presence across Instagram, Facebook,
+                            TikTok, and YouTube. Creating content strategies, editing videos, and tracking performance
+                            analytics.</p>
+                        <div class="exp-tags">
+                            <span class="tag">SMM</span>
+                            <span class="tag">Content Creation</span>
+                            <span class="tag">Video Editing</span>
+                            <span class="tag">Brand Growth</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-branch-item exp-branch-right reveal">
+                    <div class="exp-branch-connector"></div>
+                    <div class="exp-branch-node"><span class="exp-branch-node-ring"></span></div>
+                    <div class="exp-branch-card glass-card tilt-card">
+                        <div class="exp-branch-date-badge">Present</div>
+                        <div class="exp-branch-icon">🌐</div>
+                        <h3>WordPress Developer Intern</h3>
+                        <span class="exp-branch-company">Itsolera</span>
+                        <p class="exp-branch-desc">Building and customizing WordPress websites to client specifications.
+                            Theme customization, plugin management, UI/UX improvements, and ensuring responsive,
+                            SEO-friendly layouts.</p>
+                        <div class="exp-tags">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// skills.technologies</span>
+                <h2 class="section-title">Skills &amp; <span class="accent">Technologies</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">🌐</span>
+                        <span class="skill-name">WordPress Dev & Design <small>(3+ Years · 20+ Sites)</small></span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">🔍</span>
+                        <span class="skill-name">SEO & Backlinking <small>(2+ Years · 15+ Clients)</small></span>
+                        <span class="skill-percent">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="88"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">📱</span>
+                        <span class="skill-name">Social Media Marketing <small>(2+ Years · 5+ Brands)</small></span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">🐍</span>
+                        <span class="skill-name">Python / ML</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">🗄️</span>
+                        <span class="skill-name">Database (Access / Oracle)</span>
+                        <span class="skill-percent">78%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="78"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">📊</span>
+                        <span class="skill-name">Power BI / SPSS</span>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">🎬</span>
+                        <span class="skill-name">Video Editing</span>
+                        <span class="skill-percent">82%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="82"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">✍️</span>
+                        <span class="skill-name">Content & Blog Writing</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">📈</span>
+                        <span class="skill-name">Google Analytics</span>
+                        <span class="skill-percent">76%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="76"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">💻</span>
+                        <span class="skill-name">C / C++ / DSA</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">📋</span>
+                        <span class="skill-name">Microsoft Office Suite</span>
+                        <span class="skill-percent">92%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="92"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-header">
+                        <span class="skill-icon">🤖</span>
+                        <span class="skill-name">AI Tools & Meta AI</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// projects.deploy()</span>
+                <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card tilt-card reveal">
+                    <div class="project-image">
+                        <img src="assets/project_car_new.jpg" alt="Car Showroom Management">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Cora12345678/oop_project" target="_blank"
+                                rel="noopener noreferrer" class="project-link">⚡ View on GitHub →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>🚗 Car Showroom Management</h3>
+                        <p>Console-based OOP app in C++ implementing classes, inheritance &amp; encapsulation to manage
+                            vehicle inventory and customer data.</p>
+                        <div class="project-tags">
+                            <span class="tag type-personal">Personal Project</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">OOP</span>
+                        </div>
+                        <p class="project-result"><strong>Result:</strong> Complete inventory management system.</p>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card reveal">
+                    <div class="project-image">
+                        <img src="assets/project_blog_new.jpg" alt="Blogging Website">
+                        <div class="project-overlay">
+                            <a href="https://dev-myblogsite123.pantheonsite.io/" target="_blank"
+                                rel="noopener noreferrer" class="project-link">⚡ Live Demo →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>📝 Blogging Website</h3>
+                        <p>A fully functional blog website built and deployed on WordPress with custom design, SEO
+                            optimization, and content management.</p>
+                        <div class="project-tags">
+                            <span class="tag type-client">Client Project</span>
+                            <span class="tag">WordPress</span>
+                            <span class="tag">SEO</span>
+                        </div>
+                        <p class="project-result"><strong>Result:</strong> Ranked #1 for key industry terms.</p>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card reveal">
+                    <div class="project-image">
+                        <img src="assets/project_gaming_new.png" alt="Gaming Info Site">
+                        <div class="project-overlay">
+                            <a href="https://doramonx.blogsstory.com/" target="_blank" rel="noopener noreferrer"
+                                class="project-link">⚡ Visit Site →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>🎮 Gaming Info Site</h3>
+                        <p>A gaming information and content website with blog posts, game reviews, and community content
+                            — fully SEO optimized.</p>
+                        <div class="project-tags">
+                            <span class="tag type-client">Client Project</span>
+                            <span class="tag">WordPress</span>
+                            <span class="tag">Blog</span>
+                        </div>
+                        <p class="project-result"><strong>Result:</strong> 50k+ monthly impressions.</p>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card reveal">
+                    <div class="project-image">
+                        <img src="assets/skardu.png" alt="Skardu Food Street">
+                        <div class="project-overlay">
+                            <a href="https://www.instagram.com/skardufoodstreet/" target="_blank"
+                                rel="noopener noreferrer" class="project-link">⚡ View Instagram →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>🏔️ Skardu Food Street</h3>
+                        <p>Social media management &amp; content creation for Skardu Food Street — Mountains Treat.
+                            Growing brand presence on Instagram with strategic content.</p>
+                        <div class="project-tags">
+                            <span class="tag type-client">Client Project</span>
+                            <span class="tag">SMM</span>
+                            <span class="tag">Content</span>
+                        </div>
+                        <p class="project-result"><strong>Result:</strong> Grew Instagram following by 200%.</p>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card reveal">
+                    <div class="project-image">
+                        <img src="assets/azan.jpg" alt="Azan BBQ & Caterers">
+                        <div class="project-overlay">
+                            <a href="https://www.instagram.com/azanbarbqandcaters/" target="_blank"
+                                rel="noopener noreferrer" class="project-link">⚡ View Instagram →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>🍖 Azan BBQ &amp; Caterers</h3>
+                        <p>Social media marketing &amp; content strategy for Azan BBQ &amp; Caterers. Building brand
+                            identity, engagement, and customer reach on Instagram.</p>
+                        <div class="project-tags">
+                            <span class="tag type-client">Client Project</span>
+                            <span class="tag">SMM</span>
+                            <span class="tag">Branding</span>
+                        </div>
+                        <p class="project-result"><strong>Result:</strong> Built cohesive digital brand identity.</p>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card reveal">
+                    <div class="project-image">
+                        <img src="assets/zarkane.png" alt="Zarkane PK">
+                        <div class="project-overlay">
+                            <a href="https://www.instagram.com/zarkane_pk/" target="_blank" rel="noopener noreferrer"
+                                class="project-link">⚡ View Instagram →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>💎 Zarkane PK</h3>
+                        <p>End-to-end social media content creation &amp; marketing for Zarkane PK — a lifestyle and
+                            accessories brand. Strategy, content calendar, and audience growth.</p>
+                        <div class="project-tags">
+                            <span class="tag type-client">Client Project</span>
+                            <span class="tag">SMM</span>
+                            <span class="tag">E-commerce</span>
+                        </div>
+                        <p class="project-result"><strong>Result:</strong> Established profitable social storefront.</p>
+                    </div>
+                </div>
+                <div class="project-card tilt-card reveal">
+                    <div class="project-image">
+                        <img src="assets/flashcard.PNG" alt="Flashcard Quiz App">
+                        <div class="project-overlay">
+                            <div class="overlay-links">
+                                <a href="https://github.com/as1-arch/HZSoftwareSolutions_Flashcard_quiz-app"
+                                    target="_blank" rel="noopener noreferrer" class="project-link">⚡ GitHub</a>
+                                <a href="https://flashmind3d.netlify.app/" target="_blank" rel="noopener noreferrer"
+                                    class="project-link">🌐 Live</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>🧠 Flashcard Quiz App</h3>
+                        <p>A web-based 3D flashcard quiz application built at HZ Software Solutions. Features advanced
+                            animations, quiz mode, and progress tracking.</p>
+                        <div class="project-tags">
+                            <span class="tag type-client">Work Project</span>
+                            <span class="tag">HTML5/CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <p class="project-result"><strong>Result:</strong> Enhanced student learning efficiency.</p>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card reveal">
+                    <div class="project-image">
+                        <img src="assets/quote_flow.PNG" alt="QuoteFlow App">
+                        <div class="project-overlay">
+                            <div class="overlay-links">
+                                <a href="https://github.com/as1-arch/Quote-flow-app" target="_blank"
+                                    rel="noopener noreferrer" class="project-link">⚡ GitHub</a>
+                                <a href="https://quoteflow3d.netlify.app/" target="_blank" rel="noopener noreferrer"
+                                    class="project-link">🌐 Live</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>💭 QuoteFlow</h3>
+                        <p>A web-based 3D quote flow application with fluid animations and a premium dark aesthetic.
+                            Explore wisdom with style.</p>
+                        <div class="project-tags">
+                            <span class="tag type-personal">Personal Project</span>
+                            <span class="tag">HTML5/CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <p class="project-result"><strong>Result:</strong> Created a highly interactive user experience.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card reveal">
+                    <div class="project-image">
+                        <img src="assets/bloom.png" alt="Bloom Tasks">
+                        <div class="project-overlay">
+                            <a href="https://bloomtasks.netlify.app/" target="_blank" rel="noopener noreferrer"
+                                class="project-link">⚡ Live Demo →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>🌸 Bloom Tasks</h3>
+                        <p>A minimalist, aesthetic to-do list application designed for focus and productivity. Your
+                            soft corner for getting things done.</p>
+                        <div class="project-tags">
+                            <span class="tag type-personal">Personal Project</span>
+                            <span class="tag">Web App</span>
+                            <span class="tag">Frontend</span>
+                        </div>
+                        <p class="project-result"><strong>Result:</strong> Boosted personal productivity by 30%.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="section" id="articles">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// articles.publish()</span>
+                <h2 class="section-title">Articles &amp; <span class="accent">Insights</span></h2>
+            </div>
+            <div class="articles-grid">
+                <article class="article-card glass-card reveal">
+                    <div class="article-meta">
+                        <span class="article-cat cat-seo">📈 SEO</span>
+                        <span class="article-date">Feb 2025 · 5 min read</span>
+                    </div>
+                    <h3>17 Backlinking Strategies That Actually Work in 2026</h3>
+                    <p>Backlinks remain a cornerstone of SEO, but not all links are created equal. I break down the top
+                        techniques I've used at WebAce Solution.</p>
+                    <div class="article-tags">
+                        <span class="tag">SEO</span>
+                        <span class="tag">Link Building</span>
+                        <span class="tag">Digital Marketing</span>
+                    </div>
+                    <a href="https://www.advetri.com/backlinks-strategies-in-2026/" target="_blank"
+                        class="article-read">Read Article →</a>
+                </article>
+
+                <article class="article-card glass-card reveal">
+                    <div class="article-meta">
+                        <span class="article-cat cat-smm">📱 Social Media</span>
+                        <span class="article-date">Apr 2025 · 4 min read</span>
+                    </div>
+                    <h3>How We Grew Social Media to 10K in 3 Months</h3>
+                    <p>A behind-the-scenes look at the content strategy, posting cadence, and engagement tactics that
+                        helped a local food brand build a loyal community.</p>
+                    <div class="article-tags">
+                        <span class="tag">Instagram</span>
+                        <span class="tag">Content Strategy</span>
+                        <span class="tag">Growth Hacking</span>
+                    </div>
+                    <a href="https://jimrtang.substack.com/p/how-to-get-your-first-10k-followers" target="_blank"
+                        class="article-read">Read Article →</a>
+                </article>
+
+                <article class="article-card glass-card reveal">
+                    <div class="article-meta">
+                        <span class="article-cat cat-wp">🌐 WordPress</span>
+                        <span class="article-date">Jun 2025 · 6 min read</span>
+                    </div>
+                    <h3>Building SEO-Optimized WordPress Sites</h3>
+                    <p>From theme selection and plugin choices to site speed and schema markup — this checklist covers
+                        every step I follow when building client websites.</p>
+                    <div class="article-tags">
+                        <span class="tag">WordPress</span>
+                        <span class="tag">Web Design</span>
+                        <span class="tag">SEO</span>
+                    </div>
+                    <a href="https://www.firstinternet.co.uk/blog/building-seo-friendly-wordpress-sites-our-approach/"
+                        target="_blank" class="article-read">Read Article →</a>
+                </article>
+
+                <article class="article-card glass-card reveal">
+                    <div class="article-meta">
+                        <span class="article-cat cat-ml">🤖 Machine Learning</span>
+                        <span class="article-date">Aug 2025 · 7 min read</span>
+                    </div>
+                    <h3>Python &amp; ML for Beginners</h3>
+                    <p>As a business-IT student diving into machine learning, I've faced a unique set of challenges.
+                        This article shares my learning path and resources.</p>
+                    <div class="article-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">BBIT</span>
+                    </div>
+                    <a href="https://medium.com/data-science/5-beginner-friendly-steps-to-learn-machine-learning-and-data-science-with-python-bf69e211ade5"
+                        target="_blank" class="article-read">Read Article →</a>
+                </article>
+
+                <article class="article-card glass-card reveal">
+                    <div class="article-meta">
+                        <span class="article-cat cat-content">🎬 Content Creation</span>
+                        <span class="article-date">Oct 2025 · 5 min read</span>
+                    </div>
+                    <h3>Video Editing for Social Media: Tools &amp; Tricks I Swear By</h3>
+                    <p>After editing hundreds of videos for brands like Azan BBQ and Zarkane PK, here are the tools,
+                        transitions, and export settings that keep viewers watching.</p>
+                    <div class="article-tags">
+                        <span class="tag">Video Editing</span>
+                        <span class="tag">YouTube</span>
+                        <span class="tag">TikTok</span>
+                    </div>
+                    <a href="https://www.adobe.com/creativecloud/video/discover/editing-for-social.html" target="_blank"
+                        class="article-read">Read Article →</a>
+                </article>
+
+                <article class="article-card glass-card reveal">
+                    <div class="article-meta">
+                        <span class="article-cat cat-career">💼 Career</span>
+                        <span class="article-date">Dec 2025 · 4 min read</span>
+                    </div>
+                    <h3>How I Landed 3 Roles Before Graduating</h3>
+                    <p>Portfolio building, cold outreach, freelancing platforms — the honest, unglamorous story of how I
+                        went from zero to three professional roles.</p>
+                    <div class="article-tags">
+                        <span class="tag">Career</span>
+                        <span class="tag">Freelancing</span>
+                        <span class="tag">Student Life</span>
+                    </div>
+                    <a href="https://medium.com/illumination/how-i-landed-a-job-before-graduation-306a750052e8"
+                        target="_blank" class="article-read">Read Article →</a>
+                </article>
+            </div>
+            <p class="articles-more">More articles coming soon — covering SEO, social media, WordPress, and life as a
+                BBIT student.</p>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// contact.establish()</span>
+                <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+                <p class="section-subtitle">Open to new opportunities, collaborations, and exciting projects. Whether
+                    it's web development, digital marketing, or tech consulting — let's build something great together!
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info-new reveal">
+                    <div class="contact-item-new">
+                        <div class="contact-icon-box purple">
+                            <span class="contact-icon">✉️</span>
+                        </div>
+                        <div class="contact-details">
+                            <strong>Email</strong>
+                            <p><a href="mailto:areebasajjad.2004@gmail.com"
+                                    class="contact-link">areebasajjad.2004@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item-new">
+                        <div class="contact-icon-box maroon">
+                            <span class="contact-icon">📞</span>
+                        </div>
+                        <div class="contact-details">
+                            <strong>Phone</strong>
+                            <p>0307-7073442</p>
+                        </div>
+                    </div>
+                    <div class="contact-item-new">
+                        <div class="contact-icon-box teal">
+                            <span class="contact-icon">📍</span>
+                        </div>
+                        <div class="contact-details">
+                            <strong>Location</strong>
+                            <p>Lahore, Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-divider"></div>
+
+                    <div class="social-section">
+                        <h4>Follow Me</h4>
+                        <div class="social-links-new">
+                            <a href="https://www.facebook.com/people/Areeba-Sajjad/pfbid02wCnwkxFHCyjL1NHNG4gc4m3TbxNt7wFCuXFZgr73JSoerTyb5wYkndbsJgAXnLTtl/"
+                                target="_blank" rel="noopener noreferrer" class="social-icon-btn">
+                                <span class="social-icon">f</span>
+                            </a>
+                            <a href="https://www.instagram.com/areebasajjad30" target="_blank" rel="noopener noreferrer"
+                                class="social-icon-btn">
+                                <span class="social-icon">📸</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/areeba-sajjad-b38b40263/" target="_blank"
+                                rel="noopener noreferrer" class="social-icon-btn">
+                                <span class="social-icon">in</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form glass-card reveal" id="contact-form"
+                    action="https://formsubmit.co/areebasajjad.2004@gmail.com" method="POST">
+                    <h3>Send a Message</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="How can I help you?"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <span>Send Message</span>
+                        <span class="btn-icon">📩</span>
+                    </button>
+                </form>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Areeba Sajjad — Built with passion for IT ⚡ Lahore, Pakistan</p>
+    </footer>
+
+    <!-- Quick Contact Toggles -->
+    <div class="contact-toggles">
+        <a href="https://wa.me/923077073442" class="whatsapp-toggle" target="_blank" rel="noopener noreferrer"
+            aria-label="Contact on WhatsApp">
+            <span class="whatsapp-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-4.821 7.604c-1.914 0-3.792-.513-5.432-1.48L3.5 21.75l1.288-4.697a10.963 10.963 0 01-1.613-5.715C3.175 5.304 7.584 1 13.003 1c2.626 0 5.092 1.022 6.948 2.879 1.856 1.857 2.878 4.323 2.878 6.95 0 5.345-4.409 9.649-9.948 9.649m9.389-16.635A12.42 12.42 0 0013.003 2.7c-5.362 0-9.727 4.365-9.727 9.727 0 1.711.444 3.383 1.29 4.878l-.83 3.023 3.093-.811c1.444.788 3.072 1.204 4.729 1.205 5.363 0 9.728-4.366 9.728-9.728 0-2.596-1.01-5.038-2.846-6.874z" />
+                </svg>
+            </span>
+        </a>
+        <div class="chatbot-toggle" id="chatbot-toggle">
+            <span class="chatbot-icon">🤖</span>
+            <span class="chatbot-badge">1</span>
+        </div>
+    </div>
+    <div class="chatbot-window glass-card" id="chatbot-window">
+        <div class="chatbot-header">
+            <div class="chatbot-header-info">
+                <span>🤖</span>
+                <div>
+                    <strong>ARIA — AI Assistant</strong>
+                    <span class="chatbot-status">● Online · Areeba's Portfolio Bot</span>
+                </div>
+            </div>
+            <button class="chatbot-close" id="chatbot-close">✕</button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages">
+            <div class="chat-msg bot">
+                <span class="chat-avatar">🤖</span>
+                <p>Hey! 👋 I'm ARIA — Areeba's AI assistant. I can tell you about her skills, projects, experience, and
+                    more. What would you like to know?</p>
+            </div>
+        </div>
+        <div class="chatbot-quick">
+            <button class="quick-btn" data-query="skills">💻 Skills</button>
+            <button class="quick-btn" data-query="projects">🚀 Projects</button>
+            <button class="quick-btn" data-query="experience">💼 Experience</button>
+            <button class="quick-btn" data-query="contact">📧 Contact</button>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbot-input-field" placeholder="Ask me anything...">
+            <button id="chatbot-send">➤</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
